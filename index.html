@@ -2,9 +2,11 @@
 <html>
 <head>
   <title>Absolute CC3D - Select Version</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
       margin: 0;
+      padding: 0;
       height: 100vh;
       background: #f0f0f0;
       display: flex;
@@ -14,16 +16,23 @@
     }
     .container {
       display: flex;
+      flex-direction: column;
+      align-items: center;
       gap: 20px;
+      padding: 20px;
     }
     a {
-      padding: 15px 30px;
-      font-size: 18px;
+      padding: 15px 25px;
+      font-size: 16px;
       text-decoration: none;
       background: #007bff;
       color: white;
       border-radius: 10px;
       transition: background 0.2s;
+      text-align: center;
+      width: 100%;
+      max-width: 300px;
+      box-sizing: border-box;
     }
     a:hover {
       background: #0056b3;
@@ -32,7 +41,9 @@
 </head>
 <body>
   <div class="container">
-    <a href="https://absolutecc3d.github.io/play">Play (Desktop+Mobile support)</a>
+    <a href="https://absolutecc3d.github.io/play">
+      Play (Desktop + Mobile)
+    </a>
   </div>
 </body>
 </html>
