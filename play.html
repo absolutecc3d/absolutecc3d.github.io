@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Absolute CC3D - Mobile</title>
+  <title>Absolute CC3D - Play</title>
   <style>
     html, body {
       margin: 0;
@@ -11,12 +11,27 @@
     iframe {
       border: none;
       width: 100%;
-      height: 100%;
+      height: calc(100% - 25px);
       display: block;
+    }
+    .credit {
+      height: 25px;
+      text-align: center;
+      font-size: 14px;
+      background: #f0f0f0;
+      line-height: 25px;
+    }
+    .credit a {
+      text-decoration: none;
+      color: #007bff;
+    }
+    .credit a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <iframe src="https://genizy.github.io/cc3d-mobile/"></iframe>
+  <div class="credit">Credits <a href="https://genizy.github.io" target="_blank">Genizy</a></div>
 </body>
 </html>
