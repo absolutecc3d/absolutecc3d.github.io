@@ -13,39 +13,8 @@
     iframe {
       border: none;
       width: 100%;
-      height: calc(100% - 25px);
+      height: 100%;
       display: block;
-    }
-    .credit {
-      height: 25px;
-      text-align: center;
-      font-size: 14px;
-      background: black;
-      color: white;
-      line-height: 25px;
-      position: relative;
-    }
-    .credit a {
-      text-decoration: none;
-      color: #007bff;
-    }
-    .credit a:hover {
-      text-decoration: underline;
-    }
-    .fullscreen-btn {
-      position: absolute;
-      right: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-      background: #007bff;
-      color: white;
-      border: none;
-      padding: 5px 10px;
-      font-size: 14px;
-      cursor: pointer;
-    }
-    .fullscreen-btn:hover {
-      background: #0056b3;
     }
     @media screen and (orientation: portrait) {
       body::before {
@@ -61,10 +30,13 @@
         z-index: 10;
         text-align: center;
       }
-      iframe, .credit {
+      iframe {
         display: none;
       }
     }
   </style>
 </head>
+<body>
+  <iframe src="https://genizy.github.io/cc3d-mobile/"></iframe>
+</body>
 </html>
